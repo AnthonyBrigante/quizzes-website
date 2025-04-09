@@ -1,21 +1,13 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Title</title>
+        <title>Choice - Quiz Types</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
+        <!-- Bootstrap CSS v5.3.2 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
         <link rel="stylesheet" href="style.css" />
     </head>
 
@@ -42,7 +34,7 @@
                                 <a class="nav-link" href="index.html" id="home-link">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="choice.html" id="choice-link">Choice</a>
+                                <a class="nav-link active" href="choice.html" id="choice-link">Choice</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="movie.html" id="movie-link">Movie</a>
@@ -61,21 +53,51 @@
                 </div>
             </nav>
         </header>
-        <main><h2>yo</h2></main>
-        <footer>
-            <!-- place footer here -->
-        </footer>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
+        <main>
+            <!-- Title -->
+            <div class="container d-flex flex-column justify-content-center align-items-center min-vh-100">
+                <h1 class="mb-5">Choose a Quiz Category</h1>
+                
+                <!-- 2x2 Grid of Images -->
+                <div class="row row-cols-2 row-cols-md-2 g-4">
+                    <!-- Movie Image -->
+                    <div class="col">
+                        <a href="movie.html">
+                            <img src="imgs/movie.jpg" class="img-fluid rounded" alt="Movie Quiz" />
+                        </a>
+                    </div>
+                    <!-- Game Image -->
+                    <div class="col">
+                        <a href="game.html">
+                            <img src="game.jpg" class="img-fluid rounded" alt="Game Quiz" />
+                        </a>
+                    </div>
+                    <!-- Comics Image -->
+                    <div class="col">
+                        <a href="comics.html">
+                            <img src="comics.jpg" class="img-fluid rounded" alt="Comics Quiz" />
+                        </a>
+                    </div>
+                    <!-- Sports Image -->
+                    <div class="col">
+                        <a href="sports.html">
+                            <img src="sports.jpg" class="img-fluid rounded" alt="Sports Quiz" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <!-- Place footer here -->
+        </footer>
+
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+        <!-- Link to external script.js -->
+        <script src="script.js"></script>
     </body>
 </html>
