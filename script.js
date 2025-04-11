@@ -136,7 +136,10 @@ function nextQuestion() {
     if (currentQuestionIndex < currentQuiz.length) {
         showQuestion();
     } else {
-        document.getElementById("quizQuestion").textContent = "Quiz complete!";
-        document.getElementById("quizOptions").innerHTML = "";
+        endQuiz();
     }
+}
+
+function endQuiz() {
+    document.getElementById("quizContainer").innerHTML = "<h2>Quiz Over! Thanks for playing!</h2>";
 }
