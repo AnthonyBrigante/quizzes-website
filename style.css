@@ -71,3 +71,27 @@ body {
 }
 
 
+/* Flexbox to align images horizontally */
+.quiz-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds padding between images */
+    margin-top: 30px;
+}
+
+.quiz-images img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    width: 200px; /* Set fixed width */
+    height: auto; /* Ensure aspect ratio remains correct */
+}
+
+/* Hover effect */
+.quiz-images img:hover {
+    transform: scale(1.1);
+}
+
+/* Hides the images when quiz starts */
+.hidden {
+    display: none;
+}

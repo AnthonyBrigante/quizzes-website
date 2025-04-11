@@ -39,7 +39,7 @@ const quizzes = {
             },
             {
                 question: "What is the name of Thor’s hammer?",
-                options: ["Stormbreaker", "Mjolnir", "Thunderfist", "Gungnir"],
+                options: ["Johnathon", "Mjolnir", "Thunderfist", "Gungnir"],
                 answer: 1
             },
             {
@@ -95,6 +95,9 @@ let currentQuiz = [];
 let currentQuestionIndex = 0;
 
 function startQuiz(quizKey) {
+    // Hide the images when a quiz starts
+    document.getElementById("quiz-images").classList.add("hidden");
+
     const quiz = quizzes[quizKey];
     if (!quiz) return;
 
@@ -142,4 +145,6 @@ function nextQuestion() {
 
 function endQuiz() {
     document.getElementById("quizContainer").innerHTML = "<h2>Quiz Over! Thanks for playing!</h2>";
+    // Show the images again when quiz ends
+    document.getElementById("quiz-images").classList.remove("hidden");
 }
