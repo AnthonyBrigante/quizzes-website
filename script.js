@@ -88,6 +88,96 @@ const quizzes = {
                 answer: 1
             }
         ]
+    },
+    marvelrivals: {
+        title: "Marvel Rivals Quiz",
+        questions: [
+            {
+                question: "which of the following characters is not a part of the original roster?",
+                options: ["Iron Man", "The Thing", "Spider-Man", "Star-Lord"],
+                answer: 1
+            },
+            {
+                question: "Which character is not a support?",
+                options: ["Cloak & Dagger", "Adam Warlock", "Captain America", "Mantis"],
+                answer: 2
+            },
+            {
+                question: "what is the least skillful dps character in the game",
+                options: ["All of the above", "Magnitos daughter", "Scarlet witch", "Wanda"],
+                answer: 0
+            },
+            {
+                question: "which of these is not a real map",
+                options: ["Ego the living plnet", "Asgard", "New York", "Wanaknda"],
+                answer: 0
+            },
+            {
+                question: "how many players are on each team",
+                options: ["3", "17", "6", "493"],
+                answer: 2
+            }
+        ]
+    },
+    rdr2: {
+        title: "Red Dead Redemption 2 Quiz",
+        questions: [
+            {
+                question: "What is the name of the main protagonist in Red Dead Redemption 2?",
+                options: ["John Marston", "Arthur Morgan", "Dutch van der Linde", "Sadie Adler"],
+                answer: 1
+            },
+            {
+                question: "Which gang is Arthur Morgan a part of?",
+                options: ["The Van der Linde Gang", "The Pinkertons", "The O'Driscoll Gang", "The Murfree Brood"],
+                answer: 0
+            },
+            {
+                question: "what is the main mount of Aruthur Morgan",
+                options: ["Horse", "Frank", "Aligator", "Tumbleweed"],
+                answer: 0
+            },
+            {
+                question: "what is arthur morgan",
+                options: ["Spaceman", "Knight", "Business man", "Cowboy"],
+                answer: 3
+            },
+            {
+                question: "What year is Red Dead Redemption 2 set in?",
+                options: ["1899", "1905", "1911", "1875"],
+                answer: 0
+            }
+        ]
+    },
+    ssbu: {
+        title: "Super Smash Bros Ultimate Quiz",
+        questions: [
+            {
+                question: "Which character is the face of the Super Smash Bros franchise?",
+                options: ["Mario", "Link", "Pikachu", "Donkey Kong"],
+                answer: 0
+            },
+            {
+                question: "Which new character was added to Super Smash Bros Ultimate as part of the DLC?",
+                options: ["steve", "Waluigi", "Sonic", "Luigi"],
+                answer: 0
+            },
+            {
+                question: "which of these is a heavy character",
+                options: ["yoshi", "bowser", "pacman", "peach"],
+                answer: 1
+            },
+            {
+                question: "How many characters are in the base roster of Super Smash Bros Ultimate?",
+                options: ["50", "70", "90", "80"],
+                answer: 2
+            },
+            {
+                question: "What is the name of the mode where players fight against waves of enemies in Super Smash Bros Ultimate?",
+                options: ["Adventure Mode", "Classic Mode", "Spirits Mode", "All-Star Mode"],
+                answer: 1
+            }
+        ]
     }
 };
 

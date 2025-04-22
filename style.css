@@ -107,3 +107,23 @@ body {
         align-items: center;
     }
 }
+#quizContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    height: 80vh; 
+    margin-top: 30px;
+}
+
+#quizQuestion {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    max-width: 90%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
