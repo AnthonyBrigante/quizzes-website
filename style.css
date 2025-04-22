@@ -32,6 +32,7 @@ body {
     background-color: #0056b3;
     transform: scale(1.05);
 }
+
 .quiz-image {
     width: 250px;
     height: 250px;
@@ -48,8 +49,9 @@ body {
 .quiz-image:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    border-color: #0d6efd; /* Optional: change border color on hover (Bootstrap primary blue) */
+    border-color: #0d6efd;
 }
+
 .quiz-card {
     border: 2px solid #ccc;
     border-radius: 12px;
@@ -70,20 +72,22 @@ body {
     border-radius: 10px;
 }
 
-
 /* Flexbox to align images horizontally */
 .quiz-images {
     display: flex;
     justify-content: center;
     gap: 20px; /* Adds padding between images */
     margin-top: 30px;
+    flex-wrap: wrap; /*  NEW: allows wrap on small screens */
 }
 
 .quiz-images img {
     cursor: pointer;
     transition: transform 0.3s ease;
-    width: 200px; /* Set fixed width */
-    height: auto; /* Ensure aspect ratio remains correct */
+    width: 250px; /*  Fixed width */
+    height: 350px; /*  Fixed height */
+    object-fit: cover; 
+    border-radius: 10px;
 }
 
 /* Hover effect */
@@ -94,4 +98,12 @@ body {
 /* Hides the images when quiz starts */
 .hidden {
     display: none;
+}
+
+/* ✅ Responsive tweak: Center images nicely on smaller screens */
+@media (max-width: 768px) {
+    .quiz-images {
+        flex-direction: column;
+        align-items: center;
+    }
 }

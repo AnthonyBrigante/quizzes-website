@@ -93,6 +93,7 @@ const quizzes = {
 
 let currentQuiz = [];
 let currentQuestionIndex = 0;
+let score = 0; // Keep track of correct answers
 
 function startQuiz(quizKey) {
     // Hide the images when a quiz starts
@@ -101,11 +102,19 @@ function startQuiz(quizKey) {
     const quiz = quizzes[quizKey];
     if (!quiz) return;
 
+    // Clear previous text before starting new quiz
+    document.getElementById("quizContainer").innerHTML = `
+        <h2 id="quizTitle"></h2>
+        <div id="quizQuestion"></div>
+        <div id="quizOptions"></div>
+    `;
+
     document.getElementById("quizTitle").textContent = quiz.title;
     document.getElementById("quizContainer").style.display = "block";
 
     currentQuiz = quiz.questions;
     currentQuestionIndex = 0;
+    score = 0; // Reset score
     showQuestion();
 }
 
@@ -124,6 +133,7 @@ function showQuestion() {
             if (index === questionData.answer) {
                 btn.classList.remove("btn-outline-secondary");
                 btn.classList.add("btn-success");
+                score++; // Increase score if correct
             } else {
                 btn.classList.remove("btn-outline-secondary");
                 btn.classList.add("btn-danger");
@@ -144,7 +154,10 @@ function nextQuestion() {
 }
 
 function endQuiz() {
-    document.getElementById("quizContainer").innerHTML = "<h2>Quiz Over! Thanks for playing!</h2>";
+    document.getElementById("quizContainer").innerHTML = `
+        <h2>Quiz Over! Thanks for playing!</h2>
+        <p>You scored ${score} out of ${currentQuiz.length}!</p>
+    `;
     // Show the images again when quiz ends
     document.getElementById("quiz-images").classList.remove("hidden");
 }
