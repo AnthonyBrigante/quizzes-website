@@ -104,12 +104,12 @@ const quizzes = {
             },
             {
                 question: "what is the least skillful dps character in the game",
-                options: ["All of the above", "Magnitos daughter", "Scarlet witch", "Wanda"],
+                options: ["All of the above", "Magnito's daughter", "Scarlet witch", "Wanda"],
                 answer: 0
             },
             {
                 question: "which of these is not a real map",
-                options: ["Ego the living plnet", "Asgard", "New York", "Wanaknda"],
+                options: ["Ego the living planet", "Asgard", "New York", "Wakanda"],
                 answer: 0
             },
             {
