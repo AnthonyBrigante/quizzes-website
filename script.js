@@ -28,6 +28,7 @@ const quizzes = {
                 answer: 0
             }
         ]
+        
     },
     mcu: {
         title: "MCU Movies Quiz",
@@ -178,7 +179,11 @@ const quizzes = {
                 answer: 1
             }
         ]
-    }
+    }, 
+   
+   
+ 
+
 };
 
 let currentQuiz = [];
