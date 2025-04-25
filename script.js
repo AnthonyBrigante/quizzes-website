@@ -364,7 +364,7 @@ const quizzes = {
         ]
     }
 };
-
+//this comment means nothing but i need it//
 let currentQuiz = [];
 let currentQuestionIndex = 0;
 let score = 0; // Keep track of correct answers
