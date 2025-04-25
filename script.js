@@ -28,7 +28,6 @@ const quizzes = {
                 answer: 0
             }
         ]
-        
     },
     mcu: {
         title: "MCU Movies Quiz",
@@ -179,11 +178,97 @@ const quizzes = {
                 answer: 1
             }
         ]
-    }, 
-   
-   
- 
-
+    },
+    marvel: {
+        title: "Marvel Comics Quiz",
+        questions: [
+            {
+                question: "Who is the leader of the X-Men?",
+                options: ["Wolverine", "colossus", "Professor X", "Storm"],
+                answer: 2
+            },
+            {
+                question: "Who is steve rodgers?",
+                options: ["superman", "The Toxic Avenger", "Captain America", "Wasp"],
+                answer: 2
+            },
+            {
+                question: "Which metal is bonded to Wolverine’s skeleton?",
+                options: ["Adamantium", "Vibranium", "copanimum", "Titanium"],
+                answer: 0
+            },
+            {
+                question: "Who is known as the 'Merc with a Mouth'?",
+                options: ["Deadpool", "Punisher", "Gambit", "Beast"],
+                answer: 0
+            },
+            {
+                question: "What is the name of Thor’s father?",
+                options: ["Loki", "Heimdall", "Odin", "Freyr"],
+                answer: 2
+            }
+        ]
+    },
+    dccomics: {
+        title: "DC Comics Quiz",
+        questions: [
+            {
+                question: "What is the real name of Batman?",
+                options: ["Clark Kent", "Bruce Wayne", "Barry Allen", "Hal Jordan"],
+                answer: 1
+            },
+            {
+                question: "Which city does Superman protect?",
+                options: ["Gotham", "Star City", "Metropolis", "Central City"],
+                answer: 2
+            },
+            {
+                question: "Who was the first robin?",
+                options: ["Tim Drake", "Jason Todd", "Dick Grayson", "Carrie Kelley"],
+                answer: 2
+            },
+            {
+                question: "What power does Green Lantern’s ring NOT have?",
+                options: ["Flight", "Constructs", "Healing", "Time Travel"],
+                answer: 3
+            },
+            {
+                question: "What is the Flash’s main ability?",
+                options: ["Super strength", "Speed", "Invisibility", "Telepathy"],
+                answer: 1
+            }
+        ]
+    },
+    imagecomics: {
+        title: "Image Comics Quiz",
+        questions: [
+            {
+                question: "Which hero is a former CIA operative turned hellspawn?",
+                options: ["Spawn", "Invincible", "Savage Dragon", "Shadowhawk"],
+                answer: 0
+            },
+            {
+                question: "Who created 'The Walking Dead' comic?",
+                options: ["Alan Moore", "Frank Miller", "Robert Kirkman", "Todd McFarlane"],
+                answer: 2
+            },
+            {
+                question: "What is the real name of Invincible?",
+                options: ["Mark Grayson", "Rick Grimes", "Al Simmons", "Eric Larsen"],
+                answer: 0
+            },
+            {
+                question: "finish the sentence -If hes invincible why can I ___ ___",
+                options: ["touch him", "hurt him", "See him", "Eat my bacon while riding a horse"],
+                answer: 2
+            },
+            {
+                question: "Who is Spawn’s creator?",
+                options: ["Stan Lee", "Todd McFarlane", "Jim Lee", "Frank Miller"],
+                answer: 1
+            }
+        ]
+    }
 };
 
 let currentQuiz = [];
