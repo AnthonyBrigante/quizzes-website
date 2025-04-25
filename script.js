@@ -268,6 +268,100 @@ const quizzes = {
                 answer: 1
             }
         ]
+    },
+
+    // Sports quizzes added at the end
+    nba: {
+        title: "NBA Quiz",
+        questions: [
+            {
+                question: "Which team won the most NBA championships?",
+                options: ["Chicago Bulls", "Boston Celtics", "Los Angeles Lakers", "Golden State Warriors"],
+                answer: 1
+            },
+            {
+                question: "Who holds the record for most career points scored?",
+                options: ["Michael Jordan", "LeBron James", "Kareem Abdul-Jabbar", "Karl Malone"],
+                answer: 1
+            },
+            {
+                question: "What team drafted Kobe Bryant?",
+                options: ["Los Angeles Lakers", "Charlotte Hornets", "Philadelphia 76ers", "Miami Heat"],
+                answer: 1
+            },
+            {
+                question: "How many players are on the court from each team during a game?",
+                options: ["4", "5", "6", "7"],
+                answer: 1
+            },
+            {
+                question: "Which player is known as the 'Greek Freak'?",
+                options: ["Giannis Antetokounmpo", "Luka Dončić", "Nikola Jokić", "Joel Embiid"],
+                answer: 0
+            }
+        ]
+    },
+
+    nfl: {
+        title: "NFL Quiz",
+        questions: [
+            {
+                question: "Which team has won the most Super Bowls?",
+                options: ["New England Patriots", "Pittsburgh Steelers", "Dallas Cowboys", "San Francisco 49ers"],
+                answer: 0
+            },
+            {
+                question: "Who is the NFL's all-time leading passer in yards?",
+                options: ["Tom Brady", "Drew Brees", "Peyton Manning", "Patrick Mahomes"],
+                answer: 0
+            },
+            {
+                question: "How many points is a touchdown worth?",
+                options: ["3", "6", "7", "2"],
+                answer: 1
+            },
+            {
+                question: "What position does a quarterback play?",
+                options: ["Offense", "Defense", "Special Teams", "Kicker"],
+                answer: 0
+            },
+            {
+                question: "Which NFL team is known for the 'Steel Curtain' defense?",
+                options: ["Dallas Cowboys", "Pittsburgh Steelers", "Miami Dolphins", "Chicago Bears"],
+                answer: 1
+            }
+        ]
+    },
+
+    baseball: {
+        title: "Baseball Quiz",
+        questions: [
+            {
+                question: "Which team has won the most World Series titles?",
+                options: ["New York Yankees", "Boston Red Sox", "Los Angeles Dodgers", "Chicago Cubs"],
+                answer: 0
+            },
+            {
+                question: "Who holds the record for most career home runs?",
+                options: ["Babe Ruth", "Barry Bonds", "Hank Aaron", "Alex Rodriguez"],
+                answer: 1
+            },
+            {
+                question: "Which team is known as the 'Cubs'?",
+                options: ["Chicago Cubs", "St. Louis Cardinals", "Boston Red Sox", "Los Angeles Dodgers"],
+                answer: 0
+            },
+            {
+                question: "Which player famously broke the color barrier in Major League Baseball?",
+                options: ["Willie Mays", "Jackie Robinson", "Lou Gehrig", "Babe Ruth"],
+                answer: 1
+            },
+            {
+                question: "How many players are on the field for each team during a baseball game?",
+                options: ["7", "9", "11", "8"],
+                answer: 1
+            }
+        ]
     }
 };
 
