@@ -169,7 +169,7 @@ const quizzes = {
             },
             {
                 question: "How many characters are in the base roster of Super Smash Bros Ultimate?",
-                options: ["50", "70", "90", "80"],
+                options: ["50", "70", "69", "80"],
                 answer: 2
             },
             {
